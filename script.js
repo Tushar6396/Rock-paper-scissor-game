@@ -1,8 +1,5 @@
 
 const totalScore = {playerScore : 0 , computerScore : 0}
-// ** getComputerChoice randomly selects between `rock` `paper` `scissors` and returns that string **
-// getComputerChoice() 👉 'Rock'
-// getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
   const choice = ['Rock','Paper','Scissors']
   const randomChoice = Math.floor(Math.random() * 3)
